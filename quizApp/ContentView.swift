@@ -18,8 +18,16 @@ struct ContentView: View {
             Image(/*@START_MENU_TOKEN@*/"istockphoto-1488144854-612x612"/*@END_MENU_TOKEN@*/)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .padding(/*@START_MENU_TOKEN@*/.bottom, 400.0/*@END_MENU_TOKEN@*/)
+                .offset(y:-375)
                 
+                
+            Button("Press here to start") {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            }
+            .offset(y: -350)
+            
+            
+            
                 
                 
         }
