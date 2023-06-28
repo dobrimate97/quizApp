@@ -22,9 +22,12 @@ struct ContentView: View {
                 
                 
             Button("Press here to start") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                
             }
             .offset(y: -350)
+            .accentColor(/*@START_MENU_TOKEN@*/Color(red: 0.309, green: 0.174, blue: 0.73)/*@END_MENU_TOKEN@*/)
+            .fontWeight(/*@START_MENU_TOKEN@*/.heavy/*@END_MENU_TOKEN@*/)
+            
             
             
             
@@ -34,6 +37,7 @@ struct ContentView: View {
         .padding()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
